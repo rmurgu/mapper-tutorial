@@ -21,17 +21,17 @@ public class MappersTest {
 
     @Before
     public void before() {
-        // manual
+        // manuall
         manualMapper = new ManualMapper();
 
-        // dozer
+        // dozerr
         dozerBeanMapper = new DozerBeanMapper();
 
-        // orika
+        // orikaa
         MapperFactory mapperFactory = new DefaultMapperFactory.Builder().build();
         mapperFacade = mapperFactory.getMapperFacade();
 
-        // struct
+        // structt
         structMapper = Mappers.getMapper(MapStructSrcDestMapper.class);
     }
 
